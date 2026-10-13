@@ -1,0 +1,23 @@
+EXTRACTOR DE AUDIOS BASE64 - ANDROID
+
+Proyecto Android nativo (Java). App offline, sin permisos de acceso completo a archivos ni internet.
+
+PASOS PARA CONSEGUIR LA APK EN ANDROID STUDIO:
+1. Instala Android Studio desde https://developer.android.com/studio
+2. Abre la carpeta Extractor_Audios_Android como proyecto.
+3. Deja que Android Studio sincronice Gradle e instale el SDK 35 si lo solicita.
+4. Menú Build > Build Bundle(s) / APK(s) > Build APK(s) (el texto puede variar).
+5. APK resultante: app/build/outputs/apk/debug/app-debug.apk
+6. Copia la APK a tu dispositivo Android e instálala, autorizando la instalación desde esa fuente cuando se solicite.
+
+ALTERNATIVA SIN ANDROID STUDIO: subir este proyecto a un repositorio GitHub y ejecutar
+Actions > Generar APK Android > Run workflow; luego descargar el artifact con la APK.
+
+USO:
+1. Seleccionar HTML
+2. Elegir carpeta de salida
+3. Extraer audios
+Los audios se nombran 01.mp3, 02.mp3... o usando la extensión correspondiente.
+No reemplaza archivos existentes y no necesita Internet.
+
+NOTA: aquí se proporciona el código fuente, no una APK ya compilada.
